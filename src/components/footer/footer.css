@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    width: 1024px;
+    font-size: 12px;
+  }
+  
+  .fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fListItem{
+    text-align: left;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient( #000000, #0a0a4e, #040476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+  .fText{
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient( #000000, #0a0a4e, #040476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
