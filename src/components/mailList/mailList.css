@@ -1,0 +1,29 @@
+.mail{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right, #000000, #0a0a4e, #040476);
+}
+
+.mailInputContainer>input{
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border: none;
+}
+.mailInputContainer>button{
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to top , #240cde, #1313d9, #030396);
+    color: white;
+    border: none;
+}

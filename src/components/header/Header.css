@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: center;
-    background-color: #003580;
+    background: linear-gradient(to bottom, #000000, #0a0a4e, #040476);
     color: white;
     padding-top: 5px;
     position: relative;
@@ -11,6 +11,10 @@
     width: 100%;
     max-width: 1024px;
     margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
 }
 
 .headerList {
@@ -48,7 +52,7 @@
     align-items: center;
     padding: 10px;
     color: white;
-    background-color: #0071c2;
+    background: linear-gradient(to top , #240cde, #1313d9, #030396);
     border: none;
     font-weight: 500;
     cursor: pointer;
@@ -60,12 +64,13 @@
     justify-content: space-around;
     padding: 10px 0px;
     background-color: white;
-    border: 3px solid #febb02;
+    border: 3px solid  #ffbb00;
     border-radius: 5px;
     width: 100%;
     max-width: 1024px;
     bottom: -25px;
     position: absolute;
+    z-index: 2;
 }
 
 .headerSearchItem {
