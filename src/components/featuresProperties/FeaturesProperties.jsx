@@ -27,7 +27,7 @@ const FeaturesProperties = () => {
         <span className="fpCity">Austin</span>
         <span className="fpPrice">Starting from $140</span>
         <div className="fpRating">
-          <button>9.3</button>
+          <button>8.8</button>
           <span>Exceptional</span>
         </div>
       </div>
