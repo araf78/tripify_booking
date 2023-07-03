@@ -3,9 +3,10 @@
     background-color: #febb02;
     padding: 10px;
     border-radius: 10px;
-    position: sticky;
     top: 10px;
     height: max-content;
+    position: sticky;
+    z-index: 1;
 }
 
 .lsTitle{
@@ -21,8 +22,8 @@
     gap: 3px;
 }
 
-.lsDate{
-    width: 243px;
+.date{
+   
 }
 
 .lsItem>label{

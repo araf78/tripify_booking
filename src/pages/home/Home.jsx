@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <div className="homeContainer">
         <Featured />
-        <h1 className="homeTitle">Explore with Property Type</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="1100" className="homeTitle">Explore with Property Type</h1>
         <PropertyList />
         <h1 className="homeTitle">Home guests love</h1>
         <FeaturesProperties />
